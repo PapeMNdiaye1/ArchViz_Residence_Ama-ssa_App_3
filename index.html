@@ -15,8 +15,11 @@ de haut standing" />
     <title>
         Residence Amaïssa Appartements F5
     </title>
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-    <script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
+
+    <script rel=preload src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script rel=preload src="https://unpkg.com/aframe-event-set-component/dist/aframe-event-set-component.min.js">
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./Style/Style.css">
@@ -109,8 +112,8 @@ de haut standing" />
         <!-- Group-0. -->
         <a-entity scale="0 0 0" rotation="0 0 0" class="groups" id="Group-0" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-3.77289 -1.17612 4.42491"
-                rotation="-87.00134935943498 177.6988494552589 -85.61249966403787"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-3.77289 -1.17612 4.42491" rotation="-87.00134935943498 177.6988494552589 -85.61249966403787"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-1  ; Group_to_activate: Group-1 ; The_rotation: 0">
             </a-plane>
@@ -121,14 +124,15 @@ de haut standing" />
         <!-- Group-1. -->
         <a-entity scale="0 0 0" class="groups" id="Group-1" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="1.81197 -0.8543 -4.24517"
-                rotation="-86.8993628719017 -165.09377796238078 -102.84363239480226"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="1.81197 -0.8543 -4.24517" rotation="-86.8993628719017 -165.09377796238078 -102.84363239480226"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-0  ; Group_to_activate: Group-0 ; The_rotation: 0">
             </a-plane>
 
 
-            <a-plane data-clickable class="pintings clickable" position="-1.72368 -1.63744 5.43613"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-1.72368 -1.63744 5.43613"
                 rotation="-86.8993628719017 -165.09377796238078 -102.84363239480226"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-2  ; Group_to_activate: Group-2 ; The_rotation: 0">
@@ -142,15 +146,17 @@ de haut standing" />
         <!-- Group-2 -->
         <a-entity scale="0 0 0" class="groups" id="Group-2" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="6.10064 -1.24896 2.29065" rotation="-75.43619626471931 -95.11443173848744 5.588057375910919"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="6.10064 -1.24896 2.29065"
+                rotation="-75.43619626471931 -95.11443173848744 5.588057375910919"
                 the_dote="Name_of_dote: Dote-3 ; Group_to_activate: Group-3 ; The_rotation: 0">
             </a-plane>
 
 
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="0.3161 -1.32277 -5.51905" rotation="-80.8414801039835 -65.88556277768363 1.1694068598620102"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="0.3161 -1.32277 -5.51905"
+                rotation="-80.8414801039835 -65.88556277768363 1.1694068598620102"
                 the_dote="Name_of_dote: Dote-1 ; Group_to_activate: Group-1 ; The_rotation: 0">
             </a-plane>
 
@@ -160,20 +166,20 @@ de haut standing" />
         <a-entity scale="0 0 0" class="groups" id="Group-3" visible="false">
 
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-4.66797 -0.94886 -2.21453"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-4.66797 -0.94886 -2.21453"
                 rotation="-88.07278043632962 -149.2698295764577 -123.74398684558443"
                 the_dote="Name_of_dote: Dote-2 ; Group_to_activate: Group-2 ; The_rotation:  0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-1.67936 -0.40403 6.59455"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-1.67936 -0.40403 6.59455"
                 rotation="-88.07278043632962 -149.2698295764577 -123.74398684558443"
                 the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation:  0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="2.24555 -0.40403 -4.24105"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="2.24555 -0.40403 -4.24105"
                 rotation="-88.07278043632962 -149.2698295764577 -123.74398684558443"
                 the_dote="Name_of_dote: Dote-24 ; Group_to_activate: Group-24 ; The_rotation:  0">
             </a-plane>
@@ -185,24 +191,26 @@ de haut standing" />
         <!-- Group-4 -->
         <a-entity scale="1 1 1" class="groups" id="Group-4" visible="true">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="0.96859 -1.21727 -8.14182"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="0.96859 -1.21727 -8.14182"
                 rotation="-82.01317879502604 21.235534760933703 -20.004821416992694"
                 the_dote="Name_of_dote: Dote-3 ; Group_to_activate: Group-3 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-4.50892 -1.21727 -0.30349" rotation="-85.61994811537457 41.22202152848221 -40.09615946105014"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-4.50892 -1.21727 -0.30349"
+                rotation="-85.61994811537457 41.22202152848221 -40.09615946105014"
                 the_dote="Name_of_dote: Dote-5 ; Group_to_activate: Group-5 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="1.56931 -1.21727 3.60313" rotation="-83.78762908654619 152.28473349443613 -151.38060609371968"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="1.56931 -1.21727 3.60313"
+                rotation="-83.78762908654619 152.28473349443613 -151.38060609371968"
                 the_dote="Name_of_dote: Dote-7 ; Group_to_activate: Group-7 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-2.08959 -1.21727 4.78251"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-2.08959 -1.21727 4.78251"
                 rotation="-83.78762908654619 152.28473349443613 -151.38060609371968"
                 the_dote="Name_of_dote: Dote-19 ; Group_to_activate: Group-19 ; The_rotation: 0">
             </a-plane>
@@ -213,15 +221,17 @@ de haut standing" />
         <!-- Group-5 -->
         <a-entity scale="0 0 0" class="groups" id="Group-5" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-4.0091 -0.75299 -0.01693" rotation="-80.77730883092885 26.49013070007848 28.308125784028583"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-4.0091 -0.75299 -0.01693"
+                rotation="-80.77730883092885 26.49013070007848 28.308125784028583"
                 the_dote="Name_of_dote: Dote-6 ; Group_to_activate: Group-6 ; The_rotation: 0">
             </a-plane>
 
 
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="4.25356 -0.73786 1.34403" rotation="-80.88559785420858 -110.70862404856305 164.7408359605802"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="4.25356 -0.73786 1.34403"
+                rotation="-80.88559785420858 -110.70862404856305 164.7408359605802"
                 the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation: 0">
             </a-plane>
 
@@ -233,8 +243,9 @@ de haut standing" />
         <a-entity scale="0 0 0" class="groups" id="Group-6" visible="false">
 
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="3.66811 -1.21922 -2.47862" rotation="-87.05062372981624 -169.0454678753981 -97.32146516533138"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="3.66811 -1.21922 -2.47862"
+                rotation="-87.05062372981624 -169.0454678753981 -97.32146516533138"
                 the_dote="Name_of_dote: Dote-5 ; Group_to_activate: Group-5 ; The_rotation: 0">
             </a-plane>
 
@@ -243,18 +254,21 @@ de haut standing" />
         <!-- Group7 -->
         <a-entity scale="0 0 0" class="groups" id="Group-7" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-0.87953 -1 -3.34279" rotation="-82.71276026288078 166.88140628318897 129.11317434375536"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-0.87953 -1 -3.34279"
+                rotation="-82.71276026288078 166.88140628318897 129.11317434375536"
                 the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true" position="4.01139 -1 0.3136"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="4.01139 -1 0.3136"
                 rotation="-84.11364207197563 -45.10610242167406 -18.52601734776004"
                 the_dote="Name_of_dote: Dote-13 ; Group_to_activate: Group-13 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-0.07891 -1 6.43495" rotation="-81.24025872939455 144.21118520324768 151.9999734702561"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-0.07891 -1 6.43495"
+                rotation="-81.24025872939455 144.21118520324768 151.9999734702561"
                 the_dote="Name_of_dote: Dote-8 ; Group_to_activate: Group-8 ; The_rotation: 0">
             </a-plane>
 
@@ -263,13 +277,15 @@ de haut standing" />
         <!-- Group8 -->
         <a-entity scale="0 0 0" class="groups" id="Group-8" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-0.05305 -1 -6.42893" rotation="-86.27942253757014 137.94990241805806 -69.09298051482597"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-0.05305 -1 -6.42893"
+                rotation="-86.27942253757014 137.94990241805806 -69.09298051482597"
                 the_dote="Name_of_dote: Dote-7 ; Group_to_activate: Group-7 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-1.24762 -1.7937 4.23467" rotation="-85.62854248230153 -43.51213383562011 112.84518366660589"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-1.24762 -1.7937 4.23467"
+                rotation="-85.62854248230153 -43.51213383562011 112.84518366660589"
                 the_dote="Name_of_dote: Dote-9 ; Group_to_activate: Group-9 ; The_rotation: 0">
             </a-plane>
 
@@ -278,13 +294,15 @@ de haut standing" />
         <!-- Group9 -->
         <a-entity scale="0 0 0" class="groups" id="Group-9" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-0.55274 -0.79335 3.42638" rotation="-85.80902418776773 58.577486100789976 22.942376032628424"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-0.55274 -0.79335 3.42638"
+                rotation="-85.80902418776773 58.577486100789976 22.942376032628424"
                 the_dote="Name_of_dote: Dote-10 ; Group_to_activate: Group-10 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="0.70208 -1 -2.96204" rotation="-80.47994373525596 -97.10717894995244 -133.3152468132448"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="0.70208 -1 -2.96204"
+                rotation="-80.47994373525596 -97.10717894995244 -133.3152468132448"
                 the_dote="Name_of_dote: Dote-8 ; Group_to_activate: Group-8 ; The_rotation: 0">
             </a-plane>
 
@@ -294,13 +312,14 @@ de haut standing" />
         <a-entity scale="0 0 0" class="groups" id="Group-10" visible="false">
 
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="0.17115 -1.15573 3.02983" rotation="-80.53150993681773 153.48508007523517 -161.424556242363"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="0.17115 -1.15573 3.02983"
+                rotation="-80.53150993681773 153.48508007523517 -161.424556242363"
                 the_dote="Name_of_dote: Dote-11 ; Group_to_activate: Group-11 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="0.73494 -1.15573 -3.45368"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="0.73494 -1.15573 -3.45368"
                 rotation="-82.07047457453912 -12.89613405280457 -1.0679933301238544"
                 the_dote="Name_of_dote: Dote-9 ; Group_to_activate: Group-9 ; The_rotation: 0">
             </a-plane>
@@ -310,8 +329,9 @@ de haut standing" />
         <!-- Group11 -->
         <a-entity scale="0 0 0" class="groups" id="Group-11" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-0.26727 -1 -2.54781" rotation="-73.23661128921208 -6.041839949654531 10.603156956691015"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-0.26727 -1 -2.54781"
+                rotation="-73.23661128921208 -6.041839949654531 10.603156956691015"
                 the_dote="Name_of_dote: Dote-10 ; Group_to_activate: Group-10 ; The_rotation: 0">
             </a-plane>
 
@@ -321,21 +341,24 @@ de haut standing" />
 
         <!-- Group12 -->
         <a-entity scale="0 0 0" class="groups" id="Group-12" visible="false">
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-0.28712 -0.67581 -3.38695" rotation="-89.6913862075742 99.16638926565263 -12.059042714118435"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-0.28712 -0.67581 -3.38695"
+                rotation="-89.6913862075742 99.16638926565263 -12.059042714118435"
                 the_dote="Name_of_dote: Dote-11 ; Group_to_activate: Group-11 ; The_rotation: 0">
             </a-plane>
 
         </a-entity>
         <!-- Group13 -->
         <a-entity scale="0 0 0" class="groups" id="Group-13" visible="false">
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="3.5506 -0.40337 0.00654" rotation="-73.91499331864698 -90.17725441784513 177.27772547583774"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="3.5506 -0.40337 0.00654"
+                rotation="-73.91499331864698 -90.17725441784513 177.27772547583774"
                 the_dote="Name_of_dote: Dote-14 ; Group_to_activate: Group-14 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-3.27648 -0.40337 -0.07122" rotation="-82.90412816645447 90.3978431689705 -3.2870588706655326"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-3.27648 -0.40337 -0.07122"
+                rotation="-82.90412816645447 90.3978431689705 -3.2870588706655326"
                 the_dote="Name_of_dote: Dote-7 ; Group_to_activate: Group-7 ; The_rotation: 0">
             </a-plane>
 
@@ -344,13 +367,14 @@ de haut standing" />
         <!-- Group-14 -->
         <a-entity scale="0 0 0" class="groups" id="Group-14" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="0.17583 -0.89063 4.03852"
-                rotation="-77.03990513329049 -170.9734708560133 -9.042419922754652"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="0.17583 -0.89063 4.03852" rotation="-77.03990513329049 -170.9734708560133 -9.042419922754652"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-15  ; Group_to_activate: Group-15 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="pintings clickable" position="-3.27196 -0.36293 0.12787"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-3.27196 -0.36293 0.12787"
                 rotation="-87.83901365591625 -68.94286557250169 -111.31309452242607"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-13  ; Group_to_activate: Group-13 ; The_rotation: 0">
@@ -361,20 +385,22 @@ de haut standing" />
         <!-- Group-15 -->
         <a-entity scale="0 0 0" class="groups" id="Group-15" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="2.27073 -0.13901 -0.12767"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="2.27073 -0.13901 -0.12767"
                 rotation="-87.79260407451065 -114.01344461087766 -66.21272167870332"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-16  ; Group_to_activate: Group-16 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="pintings clickable" position="-0.64846 -0.67393 -4.4586"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-0.64846 -0.67393 -4.4586"
                 rotation="-87.79260407451065 -114.01344461087766 -66.21272167870332"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-14  ; Group_to_activate: Group-14 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="pintings clickable" position="-1.1192 -0.67393 4.46607"
-                rotation="-87.79260407451065 -114.01344461087766 -66.21272167870332"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-1.1192 -0.67393 4.46607" rotation="-87.79260407451065 -114.01344461087766 -66.21272167870332"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-18  ; Group_to_activate: Group-18 ; The_rotation: 0">
             </a-plane>
@@ -386,15 +412,15 @@ de haut standing" />
         <!-- Group-16 -->
         <a-entity scale="0 0 0" class="groups" id="Group-16" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-0.1885 -0.78221 4.20649"
-                rotation="-87.43393249475876 101.69198722658929 52.456005017612256"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-0.1885 -0.78221 4.20649" rotation="-87.43393249475876 101.69198722658929 52.456005017612256"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-17  ; Group_to_activate: Group-17 ; The_rotation: 0">
             </a-plane>
 
 
-            <a-plane data-clickable class="pintings clickable" position="-3.9556 -0.78221 -0.52592"
-                rotation="-81.30786774922 163.13598117641877 -9.159876270756472"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-3.9556 -0.78221 -0.52592" rotation="-81.30786774922 163.13598117641877 -9.159876270756472"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-15  ; Group_to_activate: Group-15 ; The_rotation: 0">
             </a-plane>
@@ -405,7 +431,8 @@ de haut standing" />
         <!-- Group-17 -->
         <a-entity scale="0 0 0" class="groups" id="Group-17" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="0.08704 -0.35708 -3.70536"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="0.08704 -0.35708 -3.70536"
                 rotation="-88.30310946997221 -86.26681746607727 -10.820307961045597"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-16  ; Group_to_activate: Group-16 ; The_rotation: 0">
@@ -415,8 +442,8 @@ de haut standing" />
         <!-- Group-18 -->
         <a-entity scale="0 0 0" class="groups" id="Group-18" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="1.58048 -0.52086 -4.71322"
-                rotation="-89.64383071057834 -124.03676827889626 35.14924185789061"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="1.58048 -0.52086 -4.71322" rotation="-89.64383071057834 -124.03676827889626 35.14924185789061"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-15  ; Group_to_activate: Group-15 ; The_rotation: 0">
             </a-plane>
@@ -426,14 +453,16 @@ de haut standing" />
         <!-- Group-19 -->
         <a-entity scale="0 0 0" class="groups" id="Group-19" visible="false">
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="1.09692 -0.67581 -3.65126" rotation="-89.6913862075742 99.16638926565263 -12.059042714118435"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="1.09692 -0.67581 -3.65126"
+                rotation="-89.6913862075742 99.16638926565263 -12.059042714118435"
                 the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation: 0">
             </a-plane>
 
 
-            <a-plane data-clickable class="Dote" material="src: #Arrow-1; transparent:true"
-                position="-3.96334 -0.68158 0.33155" rotation="-78.98165910098885 154.99940752776595 -18.95172498954224"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote"
+                material="src: #Arrow-1; transparent:true" position="-3.96334 -0.68158 0.33155"
+                rotation="-78.98165910098885 154.99940752776595 -18.95172498954224"
                 the_dote="Name_of_dote: Dote-20 ; Group_to_activate: Group-20 ; The_rotation: 0">
             </a-plane>
 
@@ -442,12 +471,13 @@ de haut standing" />
         <!-- Group-20 -->
         <a-entity scale="0 0 0" class="groups" id="Group-20" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-2.25099 -0.49754 2.6086"
-                rotation="-84.87281115052397 143.87199418853024 -119.21876617964118"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-2.25099 -0.49754 2.6086" rotation="-84.87281115052397 143.87199418853024 -119.21876617964118"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-21  ; Group_to_activate: Group-21 ; The_rotation: 0">
             </a-plane>
-            <a-plane data-clickable class="pintings clickable" position="3.73815 -0.49754 -1.40096"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="3.73815 -0.49754 -1.40096"
                 rotation="-84.87281115052397 143.87199418853024 -119.21876617964118"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-19  ; Group_to_activate: Group-19 ; The_rotation: 0">
@@ -457,14 +487,14 @@ de haut standing" />
         <!-- Group-21 -->
         <a-entity scale="0 0 0" class="groups" id="Group-21" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="0.13823 -0.49754 2.86335"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="0.13823 -0.49754 2.86335" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-22  ; Group_to_activate: Group-22 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="pintings clickable" position="2.13898 -0.49754 -3.91764"
-                rotation="-78.29009904226595 -8.632755099236114 23.02316308174187"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="2.13898 -0.49754 -3.91764" rotation="-78.29009904226595 -8.632755099236114 23.02316308174187"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-20  ; Group_to_activate: Group-20 ; The_rotation: 0">
             </a-plane>
@@ -473,13 +503,14 @@ de haut standing" />
         <!-- Group-22 -->
         <a-entity scale="0 0 0" class="groups" id="Group-22" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-1.08863 -0.49754 2.93169"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-1.08863 -0.49754 2.93169" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-23  ; Group_to_activate: Group-23 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="pintings clickable" position="-0.63676 -0.49754 -3.37131"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-0.63676 -0.49754 -3.37131"
                 rotation="-70.94649898207419 -5.354863553292674 19.630107018977135"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-21  ; Group_to_activate: Group-21 ; The_rotation: 0">
@@ -490,8 +521,8 @@ de haut standing" />
         <!-- Group-23 -->
         <a-entity scale="0 0 0" class="groups" id="Group-23" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="1.20111 -0.21247 -3.12462"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="1.20111 -0.21247 -3.12462" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-22  ; Group_to_activate: Group-22 ; The_rotation: 0">
             </a-plane>
@@ -500,13 +531,13 @@ de haut standing" />
         <!-- Group-24 -->
         <a-entity scale="0 0 0" class="groups" id="Group-24" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="3.84861 -0.21247 -0.27103"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="3.84861 -0.21247 -0.27103" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-25  ; Group_to_activate: Group-25 ; The_rotation: 0">
             </a-plane>
-            <a-plane data-clickable class="pintings clickable" position="-1.73795 -0.21247 3.10099"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-1.73795 -0.21247 3.10099" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-3 ; Group_to_activate: Group-3 ; The_rotation: 0">
             </a-plane>
@@ -516,13 +547,13 @@ de haut standing" />
         <!-- Group-25 -->
         <a-entity scale="0 0 0" class="groups" id="Group-25" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-3.62103 -0.46609 0.71493"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-3.62103 -0.46609 0.71493" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-24  ; Group_to_activate: Group-24 ; The_rotation: 0">
             </a-plane>
-            <a-plane data-clickable class="pintings clickable" position="-0.43286 -0.65663 -2.90442"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-0.43286 -0.65663 -2.90442" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-26 ; Group_to_activate: Group-26 ; The_rotation: 0">
             </a-plane>
@@ -532,14 +563,14 @@ de haut standing" />
         <!-- Group-26 -->
         <a-entity scale="0 0 0" class="groups" id="Group-26" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="-1.55984 -0.46609 2.44415"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-1.55984 -0.46609 2.44415" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-25  ; Group_to_activate: Group-25 ; The_rotation: 0">
             </a-plane>
 
-            <a-plane data-clickable class="pintings clickable" position="3.67083 -0.73246 -3.11536"
-                rotation="-81.13254266390996 -11.398422376332597 25.83352106685856"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="3.67083 -0.73246 -3.11536" rotation="-81.13254266390996 -11.398422376332597 25.83352106685856"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-27 ; Group_to_activate: Group-27 ; The_rotation: 0">
             </a-plane>
@@ -548,15 +579,15 @@ de haut standing" />
         <!-- Group-27 -->
         <a-entity scale="0 0 0" class="groups" id="Group-27" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="0.05284 -0.21247 -1.32447"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="0.05284 -0.21247 -1.32447" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-28 ; Group_to_activate: Group-28 ; The_rotation: 0">
             </a-plane>
 
 
-            <a-plane data-clickable class="pintings clickable" position="-3.52018 -0.21247 2.39782"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="-3.52018 -0.21247 2.39782" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-26 ; Group_to_activate: Group-26 ; The_rotation: 0">
             </a-plane>
@@ -566,8 +597,8 @@ de haut standing" />
         <!-- Group-28 -->
         <a-entity scale="0 0 0" class="groups" id="Group-28" visible="false">
 
-            <a-plane data-clickable class="pintings clickable" position="0.70454 -1.16049 1.63958"
-                rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
+            <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="pintings clickable"
+                position="0.70454 -1.16049 1.63958" rotation="-85.36956555890241 -157.8292460779171 172.4620152077632"
                 material="src: #Arrow-1; transparent:true"
                 the_dote="Name_of_dote: Dote-27 ; Group_to_activate: Group-27 ; The_rotation: 0">
             </a-plane>
@@ -587,7 +618,6 @@ de haut standing" />
         let the_cursor = document.querySelector('.a-mouse-cursor-hover')
         let theBlachHover = document.querySelector('.the_blach_hover')
 
-
         theInfo.addEventListener('click', () => {
             if (theInfo.classList.length === 1) {
                 theInfo.classList.add("the_info_active")
@@ -598,9 +628,6 @@ de haut standing" />
             }
         })
 
-
-
-
         AFRAME.registerComponent('the_dote', {
             schema: { Name_of_dote: { type: 'string', default: '#Name', }, Group_to_activate: { type: 'string', default: '#Position', }, The_rotation: { type: 'string', default: '0', } },
 
@@ -610,8 +637,6 @@ de haut standing" />
                 let Group_to_activate = this.data.Group_to_activate
                 let TheRotation = this.data.The_rotation
                 let The_Arrow = this.el
-                this.el.setAttribute('color', '#fff')
-                this.el.setAttribute('opacity', '0.5')
                 this.el.setAttribute('event-set__mouseenter', "scale: 1.1 1.1 1.1 ; opacity : 1;  color: #fff")
                 this.el.setAttribute('event-set__mouseleave', "scale: 0.9 0.9 0.9 ; opacity : 0.5 ;  color: #fff")
                 this.el.addEventListener('click', (theDote) => {
@@ -731,7 +756,6 @@ de haut standing" />
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
